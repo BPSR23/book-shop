@@ -58,21 +58,6 @@
 		         .end().filter("[href=\\#"+id+"]").parent().addClass("active");
 		   }           
 		})
-
-
-
-		    
-	    $('#mu-google-map').click(function () {
-
-		    $('#mu-google-map iframe').css("pointer-events", "auto");
-
-		});
-		
-		$("#mu-google-map").mouseleave(function() {
-
-		  $('#mu-google-map iframe').css("pointer-events", "none"); 
-
-		});
 		
 
 
